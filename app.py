@@ -16,7 +16,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = 'your-secret-key-change-in-production'
 
 # OMDB API Configuration
-OMDB_API_KEY = "9a98572b"  # Replace with your actual API key
+OMDB_API_KEY = ""  # Replace with your actual API key
 OMDB_BASE_URL = "http://www.omdbapi.com/"
 
 class MovieRecommendationSystem:
